@@ -21,3 +21,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Gradle/Netbeans/IntelliJ
+.gradle
+.nb-gradle
+*.iml
+.idea/**
+
+# Output directories
+build/**
+out/**
+ootb-jfx-common/build/**
+ootb-jfx-common/out/**
+ootb-jfx-jdk8/build/**
+ootb-jfx-jdk8/out/**
